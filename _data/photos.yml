@@ -1,0 +1,15 @@
+- file: .png
+  tag: Military
+  alt: Blog 1
+- file: /assets/images/blog-2.jpg
+  tag: Activity
+  alt: Blog 2
+- file: /assets/images/blog-3.jpg
+  tag: Activity
+  alt: Blog 3
+- file: /assets/images/avatar-3.png
+  tag: Military
+  alt: Blog 3
+- file: /assets/images/avatar-3.png
+  tag: Test
+  alt: Blog 3
