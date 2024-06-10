@@ -51,21 +51,21 @@ permalink: /photos
 
     <ul class="project-list">
 
-    {% for project-item in site.data.photos %}
-    <li class="project-item  active" data-filter-item data-category="{{ project-item.tag | downcase }}">
-        <a href="{{ project-item.link }}">
+    {% for photo-item in site.data.photos %}
+    <li class="project-item active" data-filter-item data-category="{{ photo-item.tag | downcase }}">
+        <a href="{{ photo-item.link }}">
 
         <figure class="project-img">
             <div class="project-item-icon-box">
             <ion-icon name="eye-outline"></ion-icon>
             </div>
 
-            <img src="/assets/photos/{{ project-item.file }}" alt="{{ project-item.alt }}" loading="lazy">
+            <img src="/assets/photos/{{ photo-item.file }}" alt="{{ photo-item.alt }}" loading="lazy" data-photos-image>
         </figure>
 
-        <h3 class="project-title">{{ project-item.tag }}</h3>
+        <h3 class="project-title" data-photos-alt>{{ photo-item.alt }}</h3>
 
-        <p class="project-category">{{ project-item.tag }}</p>
+        <p class="project-category" data-photos-tag>{{ photo-item.tag }}</p>
 
         </a>
     </li>
@@ -74,3 +74,43 @@ permalink: /photos
     </ul>
 
 </section>
+
+<div class="modal-container" data-modal-container>
+
+    <div class="overlay" data-overlay></div>
+
+    <section class="photos-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+        <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+        </figure>
+
+        <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+
+    <div class="modal-content">
+
+        <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+        <time datetime="2021-06-14">14 June, 2021</time>
+
+        <div data-modal-text>
+        <p>
+            Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+            lot of experience
+            and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+            consectetur adipiscing
+            elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+        </p>
+        </div>
+
+    </div>
+
+    </section>
+
+</div>

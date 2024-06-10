@@ -1,0 +1,93 @@
+<aside class="sidebar" data-sidebar>
+
+<div class="sidebar-info">
+
+    <figure class="avatar-box">
+    <img src="./assets/images/my-avatar.png" alt="{{ site.data.profile.name }}" width="80">
+    </figure>
+
+    <div class="info-content">
+    <h1 class="name" title="{{ site.data.profile.name }}">{{ site.data.profile.name }}</h1>
+
+    <p class="title">{{ site.data.profile.description }}</p>
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+    <span>Show Contacts</span>
+
+    <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+</div>
+
+<div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+    <li class="contact-item">
+
+        <div class="icon-box">
+        <ion-icon name="mail-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+        <p class="contact-title">Email</p>
+
+        <a href="mailto:{{ site.data.profile.email }}" class="contact-link">{{ site.data.profile.email }}</a>
+        </div>
+
+    </li>
+
+    {% if site.data.profile.phone %}
+    <li class="contact-item">
+
+        <div class="icon-box">
+        <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+        <p class="contact-title">Phone</p>
+
+        <a href="tel:{{ site.data.profile.phone | replace ' ', '' }}" class="contact-link">{{ site.data.profile.phone }}</a>
+        </div>
+
+    </li>
+    {% endif %}
+
+    {% if site.data.profile.location %}
+    <li class="contact-item">
+
+        <div class="icon-box">
+        <ion-icon name="location-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+        <p class="contact-title">Location</p>
+
+        <address>{{ site.data.profile.location }}</address>
+        </div>
+
+    </li>
+    {% endif %}
+
+    </ul>
+
+    <div class="separator"></div>
+
+    <ul class="social-list">
+
+    {% for social-item in site.data.profile.socials %}
+    <li class="social-item">
+        <a href="{{ social-item.link }}" class="social-link">
+        <ion-icon name="logo-{{ social-item.icon }}"></ion-icon>
+        </a>
+    </li>
+    {% endfor %}
+
+    </ul>
+
+</div>
+
+</aside>

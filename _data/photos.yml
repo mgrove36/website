@@ -1,15 +1,15 @@
-- file: .png
-  tag: Military
-  alt: Blog 1
-- file: /assets/images/blog-2.jpg
-  tag: Activity
-  alt: Blog 2
-- file: /assets/images/blog-3.jpg
-  tag: Activity
-  alt: Blog 3
-- file: /assets/images/avatar-3.png
-  tag: Military
-  alt: Blog 3
-- file: /assets/images/avatar-3.png
-  tag: Test
-  alt: Blog 3
+- file: DSC_0217.jpg
+  tag: Portrait
+  alt: Black and white portrait photo with sunlight shining on one half of the face
+- file: Album-Cover.jpg
+  tag: Portrait
+  alt: A woman sat on a bench in the dark, with two flourescent lines of light horizontally across the image
+- file: 2023-02-05-16-26-31_018.jpg
+  tag: Portrait
+  alt: A man stood by a metal fence on the beach, looking at the ocean
+- file: DSC_0570.jpg
+  tag: Portrait
+  alt: The silhouette of a man in the sunset, holding a necklace around his neck
+- file: 2023-02-05-16-11-35_017.jpg
+  tag: Portrait
+  alt: A man sat on raised rocks on the beach, in the sun
