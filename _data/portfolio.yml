@@ -1,5 +1,24 @@
-- title: Finance
-  link: '#'
-  tag: Web development
-  image: /assets/images/project-1.jpg
-  image_alt: finance
+- title: BRECcIA Network Mapper
+  date: 2023
+  link: https://github.com/southampton-rsg/breccia-mapper
+  tag: Web Development
+  image: /assets/images/breccia-graph.png
+  image_alt: BRECcIA Network Mapper graph
+- title: Parandum
+  date: 2020
+  link: https://github.com/mgrove36/parandum
+  tag: Web Development
+  image: /assets/images/parandum-banner.png
+  image_alt: Parandum dashboard
+- title: Swifts Junior Badminton Club website
+  date: 2022
+  link: https://swiftsjbc.org.uk
+  tag: Web Development
+  image: /assets/images/sjbc-banner.png
+  image_alt: Swifts Junior Badminton Club website
+- title: BBC Young Reporter Website
+  date: 2019
+  link: https://github.com/mgrove36/bbc-young-reporter
+  tag: Web Development
+  image: /assets/images/bbc-young-reporter-banner.png
+  image_alt: BBC Young Reporter website

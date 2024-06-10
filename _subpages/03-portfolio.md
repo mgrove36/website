@@ -53,7 +53,7 @@ permalink: /portfolio
 
     {% for project-item in site.data.portfolio %}
     <li class="project-item  active" data-filter-item data-category="{{ project-item.tag | downcase }}">
-        <a href="{{ project-item.link }}">
+        <a target="_blank" href="{{ project-item.link }}">
 
         <figure class="project-img">
             <div class="project-item-icon-box">
@@ -65,7 +65,7 @@ permalink: /portfolio
 
         <h3 class="project-title">{{ project-item.title }}</h3>
 
-        <p class="project-category">{{ project-item.tag }}</p>
+        <p class="project-category">{{ project-item.date }}, {{ project-item.tag }}</p>
 
         </a>
     </li>
