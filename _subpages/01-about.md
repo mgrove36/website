@@ -4,8 +4,7 @@ permalink: /
 ---
 
 <section class="about-text">
-    {% capture about %}{% include about.md %}{% endcapture %}
-    {{ about | markdownify }}
+    {{ site.data.profile.about | markdownify }}
 </section>
 
 
