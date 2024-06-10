@@ -1,9 +1,33 @@
+- title: Home Assistant Pi Pico W Dashboard
+  date: 2024
+  link: https://github.com/mgrove36/home-assistant-pi-pico-w-dashboard
+  tag: Software Engineering
+  image: /assets/images/hass-pico-dashboard-banner.jpg
+  image_alt: Pi Pico W with Home Assistant dashboard
+- title: Java Distributed Filesystem
+  date: 2024
+  link: https://github.com/mgrove36/comp2207-cw
+  tag: Software Engineering
+  image: /assets/images/java-dstore-banner.png
+  image_alt: Distributed filesystem implemented with Java
 - title: BRECcIA Network Mapper
   date: 2023
   link: https://github.com/southampton-rsg/breccia-mapper
   tag: Web Development
   image: /assets/images/breccia-graph.png
   image_alt: BRECcIA Network Mapper graph
+- title: Haskell labs
+  date: 2023
+  link: https://github.com/mgrove36/comp2209-labs
+  tag: Software Engineering
+  image: /assets/images/haskell-banner.jpg
+  image_alt: Haskell icon
+- title: ECS Chat
+  date: 2023
+  link: https://github.com/mgrove36/comp1206-ecschat
+  tag: Software Engineering
+  image: /assets/images/ecschat-banner.png
+  image_alt: ECS Chat window with chat open
 - title: Parandum
   date: 2020
   link: https://github.com/mgrove36/parandum
@@ -22,3 +46,9 @@
   tag: Web Development
   image: /assets/images/bbc-young-reporter-banner.png
   image_alt: BBC Young Reporter website
+- title: Reading School Alumni Society website
+  date: 2020
+  link: https://alumni.reading-school.co.uk
+  tag: Web Development
+  image: /assets/images/rs-alumni-banner.png
+  image_alt: Reading School Alumni Society website

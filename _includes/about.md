@@ -1,9 +1,5 @@
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-I enjoy
-turning complex problems into simple, beautiful and intuitive designs.
+A cyber security & software engineer with a special interest in application and network security, I am currently studying MEng Computer Science with Cyber Security at the University of Southampton. I am also an ex- RAF Cadet Warrant Officer and Lord-Lieutenant’s Cadet, where I represented all cadets in Berkshire; currently an Officer Cadet at Southampton University Air Squadron and Service Instructor in the Combined Cadet Force.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-Moreover, I
-add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-across your
-message and identity in the most creative way. I created web design for many famous brand companies.
+I love running and flying - fuelled by a successful career as an RAF cadet. During this time I reached the rank of Cadet Warrant Officer and, at the Royal International Air Tattoo, was the first CCF cadet to earn "Best Cadet" in its 30+ year history. I was also awarded a highly selective flying scholarship, and the position of Lord-Lieutenant's Cadet: an aide to the monarch's representative in Berkshire, representing the county's cadets, in 2021/22. Now furthering this interest as an Officer Cadet at Southampton University Air Squadron, I also volunteer as staff at a cadet unit.
+
+I have historically volunteered with several organisations and societies, most recently as Vice President at Southampton University Cyber Security Society - organising weekly sessions and liaising with students, staff, and industry partners to ensure the success of the society. I also volunteer with the Jon Egging Trust: a charity that aims to inspire underprivileged young people to reach their full potentials.

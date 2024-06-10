@@ -23,7 +23,7 @@ permalink: /resume
         <span>{{ education-item.start_year }} — {{ education-item.end_year }} ({{ education-item.grade }})</span>
         
         <p class="timeline-text">
-            {{ education-item.description }}
+            {{ education-item.description | markdownify }}
         </p>
 
     </li>
@@ -54,7 +54,7 @@ permalink: /resume
 
         {% if experience-item.description %}
         <p class="timeline-text">
-        {{ experience-item.description }}
+        {{ experience-item.description | markdownify }}
         </p>
         {% endif %}
 

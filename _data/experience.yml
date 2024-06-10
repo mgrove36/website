@@ -1,5 +1,46 @@
+- job_title: Software Engineer
+  company: Freelance
+  start_year: 2021
+  end_year: Present
+  description: |
+    Recent projects have included [Parandum](https://parandum.mgrove.uk) (a vocabulary learning platform), the [Reading School Alumni Society website](https://alumni.reading-school.co.uk) (with a brief to make the most of the limited features available), and a website for Reading School's students [to publish news articles on](https://youngreporter.mgrove.uk), as part of the BBC Young Reporter programme -- as well as numerous internal systems for other organisations. I also develop websites for a marketing company.
+- job_title: Cyber Security Intern
+  company: WithSecure
+  start_year: 2023
+  end_year: 2023
+  description: |
+    First undertaking class-leading training in various aspects of cyber security - from web applications to networks - I completed a research project focusing on automating the identification of attack paths and potential privilege escalation in IBM's mainframe operating system, z/OS. This culminated in presenting my findings (and the tool I had developed) to the company's global consulting team, building on the knowledge I gained from consulting workshops I also attended.
 - job_title: Student Ambassador
   company: University of Southampton
   start_year: 2022
   end_year: Present
+  description: |
+    Supporting the university's Widening Participation and Social Mobility, and outreach teams with local initiatives with nearby primary and secondary schools, engaging students and supporting their academic and social development - and promoting the university on the wider national stage.
+- job_title: Digital Impact Officer
+  company: BRECcIA Research Project, University of Southampton
+  start_year: 2022
+  end_year: 2023
+  description: |
+    Software development focusing on the completion of relationship mapping software for use in both research and corporate environments. This is open-source software deployed through Docker and built with Django, principally aiming to increase the efficacy of collaborations across departments and organisations. This web app and its documentation are available [on GitHub](https://github.com/Southampton-RSG/breccia-mapper).
+- job_title: Section Officer
+  company: Combined Cadet Force
+  start_year: 2023
+  end_year: Present
   description: 
+- job_title: Technical Lead
+  company: Swifts Junior Badminton Club
+  start_year: 2022
+  end_year: Present
+  description: |
+    In this position I have overhauled both [the website](https://swiftsjbc.org.uk) and backend systems of this charity, including managing SEO for the website and migrating many offline processes to a centrally-managed CRM. I am also the point of contact for all technical assistance in the organisation, and have been the change manager during migration to the organisation's new systems. This has involved liaising with staff and club members, and ensuring ease of use for all.
+- job_title: Officer Cadet
+  company: Southampton University Air Squadron
+  start_year: 2022
+  end_year: 2024
+  description: 
+- job_title: Hospitality
+  company: CH&CO
+  start_year: 2022
+  end_year: Present
+  description: |
+    Assisting with the running of match days and corporate events at Southampton Football Club and related entities.
