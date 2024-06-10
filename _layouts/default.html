@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <main>
+
+
+    {% include sidebar.html %}
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      {% include navbar.html %}
+
+      {% for subpage in site.subpages %}
+      {% if page.permalink == subpage.url %}
+        <article class="{{ subpage.title | downcase | handle }}{% if page.permalink == subpage.url %} active{% endif %}" data-page="{{ subpage.title | downcase | handle }}">
+
+        <header>
+            <h2 class="h2 article-title">{{ subpage.title }}</h2>
+        </header>
+
+        {{ subpage.content | markdownify }}
+
+        </article>
+      {% endif %}
+      {% endfor %}
+
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="/assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
