@@ -1,48 +1,192 @@
 - file: DSC_0217.jpg
-  tag: Portrait
+  tag: Portraits
   alt: Black and white portrait photo with sunlight shining on one half of the face.
 - file: Album-Cover.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A woman sat on a bench in the dark, with two horizontal flourescent lines of light in the background.
 - file: 2023-02-05-16-26-31_018.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man stood by a metal fence on the beach, looking at the ocean.
+- file: 2022-07-07-12-01-57_014.jpg
+  tag: Portraits
+  alt: A British Army Sergeant in front of a wooden gun.
 - file: DSC_0570.jpg
-  tag: Portrait
+  tag: Portraits
   alt: The silhouette of a man in the sunset, holding a necklace around his neck.
 - file: 2023-02-05-16-11-35_017.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man sat on raised rocks on the beach, in the sun.
 - file: Spotify-Banner.jpg
-  tag: Portrait
+  tag: Portraits
   alt: Pop artist cover photo. A woman sat on a bench at night, tinted orange.
 - file: DSC_0107.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man wearing glasses looking at the camera, with a leafy background.
 - file: DSC_0394.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man standing in front of a lake and looking at the camera.
 - file: DSC_0030.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man sat under a tree in the sun.
 - file: DSC_0440.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man staring into the distance at sunset and holding his hands in front of him.
 - file: DSC_0009.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man sat in dappled sunlight under a tree looking at the camera.
 - file: 2023-02-05-16-36-54_020.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A silhouette of a person dancing on the beach at sunset.
 - file: 2023-02-05-16-09-09_012.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man sat on top of a rock on the beach at sunset.
 - file: 2023-02-05-14-29-41_006.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man walking away from the camera towards a windfarm on the beach.
 - file: 2023-02-05-14-44-20_009.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man sat on a rock on the beach, looking into the distance.
 - file: 2023-02-05-14-01-26_000.jpg
-  tag: Portrait
+  tag: Portraits
   alt: A man looking at his phone on a beach promenade.
+
+- file: DSC_0249.jpg
+  tag: Nature
+  alt: A sign on a cliff overlooking the sea.
+- file: DSCN5182.jpg
+  tag: Nature
+  alt: A collection of stones on a beach at sunset.
+- file: DSCN5631.jpg
+  tag: Nature
+  alt: A silhouette of a hut with a pointed roof in a field at sunset.
+- file: DSCN5685.jpg
+  tag: Nature
+  alt: A bee resting on a purple flower.
+- file: IMG_2020-04-11-0006.jpg
+  tag: Nature
+  alt: A flowering gorse bush by a lake, with a forest in the background.
+- file: IMG_2020-07-26-0004.jpg
+  tag: Nature
+  alt: A large pink flower with yellow stamens.
+- file: IMG_2020-07-26-0006.jpg
+  tag: Nature
+  alt: A spherical pink flower amongst leaves.
+- file: IMG_2020-07-26-0023.jpg
+  tag: Nature
+  alt: A pink flower on a background of greyscale leaves.
+- file: IMG_2021-04-21-0005.jpg
+  tag: Nature
+  alt: A light yellow daffodils amongst a collection of others.
+
+- file: 2023-01-29-0005.jpg
+  tag: Industrial
+  alt: A blur of car lights on a road at night.
+- file: DSCN5291.jpg
+  tag: Industrial
+  alt: A maroon model train in a model village.
+- file: DSCN5364.jpg
+  tag: Industrial
+  alt: A model of a Grant & Stone depot in a model village.
+- file: DSCN5666.jpg
+  tag: Industrial
+  alt: A river leading out to sea at sunset.
+- file: DSCN6031.jpg
+  tag: Industrial
+  alt: A straight coridoor in an air forces memorial with boards listing fallen soldiers, leading to a view over a forest through a window.
+- file: DSCN6192.jpg
+  tag: Industrial
+  alt: A sign showing the destination of the next tube train at Earl's Court station in London, UK.
+- file: DSCN6218.jpg
+  tag: Industrial
+  alt: An underground coridoor at a tube station in London, UK.
+- file: IMG_2021-08-19-0001-1.jpg
+  tag: Industrial
+  alt: A radio mast with red lights at night, through a clearing in some trees.
+
+- file: IMG_2020-06-25-0021-1.jpg
+  tag: Dogs
+  alt: A bichon frise lying on some grass.
+- file: IMG_2020-07-20-0036.jpg
+  tag: Dogs
+  alt: The eye of a bichon frise.
+- file: IMG_2020-10-18-0001.jpg
+  tag: Dogs
+  alt: A greyscale image of a bichon frise in a Christmas jumper.
+- file: IMG_2020-10-18-0015.jpg
+  tag: Dogs
+  alt: A portrait of a bichon frise looking towards the camera.
+- file: IMG_2021-01-24-0007.jpg
+  tag: Dogs
+  alt: A bichon frise looking at a plant in the snow and wearing a red coat.
+- file: IMG_2021-02-07-0005.jpg
+  tag: Dogs
+  alt: A bichon frise asleep on a green sofa.
+- file: IMG_2021-04-13-0002.jpg
+  tag: Dogs
+  alt: A bichon frise wearing a harness by a stream in a forest.
+- file: IMG_2021-05-31-0002.jpg
+  tag: Dogs
+  alt: A bichon frise lying on some grass with daisies.
+- file: July-127.jpg
+  tag: Dogs
+  alt: Two bichon frise dogs sitting on a pedestal at the top of a hill.
+
+- file: 2022-10-28-16-05-55_007.jpg
+  tag: Animals
+  alt: A grey squirrel on grass in dappled sunlight, with an acorn in its mouth.
+- file: 2022-10-28-16-10-08_011.jpg
+  tag: Animals
+  alt: A grey squirrel in a tree in dappled sunlight.
+- file: DSC_0279.jpg
+  tag: Animals
+  alt: A windswept sheep on a hill in the sun, with other sheep in the background.
+- file: DSC_0303-3.jpg
+  tag: Animals
+  alt: Two young sheep on a hill in front of a gorse bush.
+- file: DSC_0337-2.jpg
+  tag: Animals
+  alt: A large black and white horse on a cliff, behind a large black horse.
+- file: DSCN5123.jpg
+  tag: Animals
+  alt: A cat eating from a tin of tuna on a street in Spain.
+- file: DSCN6051.jpg
+  tag: Animals
+  alt: A ladybird walking along a metal compass on a concrete wall.
+
+- file: 2022-07-15-13-43-57_022.jpg
+  tag: Aviation
+  alt: An RAF Typhoon in the 2022 Typhoon Display Team livery landing at RAF Fairford during RIAT 2022.
+- file: 2022-07-15-14-18-15_036.jpg
+  tag: Aviation
+  alt: A Black Eagles (South Korean display team) Hawk T2 landing at RAF Fairford during RIAT 2022.
+- file: 2022-07-15-14-40-13_043.jpg
+  tag: Aviation
+  alt: A Swedish Air Force Historic Flight Saab Sk35C Draken taking off at RAF Fairford during RIAT 2022.
+- file: 2022-07-15-14-42-32_047.jpg
+  tag: Aviation
+  alt: A Swedish Air Force Historic Flight Saab Sk37E Viggen taking off at RAF Fairford during RIAT 2022.
+- file: 2022-07-16-11-43-43_058.jpg
+  tag: Aviation
+  alt: A view over the left wing of a static jet aircraft, looking towards the bubble cockpit, at RAF Fairford during RIAT 2022.
+- file: 2022-07-16-11-44-17_059.jpg
+  tag: Aviation
+  alt: A Hellenic Air Force F-16 at RAF Fairford during RIAT 2022.
+- file: 2022-07-16-13-08-22_065.jpg
+  tag: Aviation
+  alt: A Hungarian Air Force Mi-24P Hind at RAF Fairford during RIAT 2022.
+- file: 2022-07-16-14-50-08_073.jpg
+  tag: Aviation
+  alt: A Czech Air Force PZL W-3A Sokol in a search and rescue display at RAF Fairford during RIAT 2022.
+- file: 2022-07-16-15-30-54_080.jpg
+  tag: Aviation
+  alt: An RAF F-35B Lightning II at RAF Fairford during RIAT 2022.
+- file: DSC_0385.jpg
+  tag: Aviation
+  alt: A Bombardier Challenger jet at Dundee Airport, viewed from the front.
+- file: DSC_0486.jpg
+  tag: Aviation
+  alt: A Bombardier Challenger jet at Dundee Airport, viewed from the side at sunset.
+- file: IMG_2021-10-25-002.jpg
+  tag: Aviation
+  alt: A National Police Air Service (NPAS) Eurocopter EC135, registration G-POLF.
+
