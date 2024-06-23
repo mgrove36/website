@@ -49,23 +49,23 @@ permalink: /portfolio
 
     </div>
 
-    <ul class="project-list">
+    <ul class="select-grid-list">
 
     {% for project-item in site.data.portfolio %}
-    <li class="project-item  active" data-filter-item data-category="{{ project-item.tag | downcase }}">
+    <li class="select-grid-item active" data-filter-item data-category="{{ project-item.tag | downcase }}">
         <a target="_blank" href="{{ project-item.link }}">
 
-        <figure class="project-img">
-            <div class="project-item-icon-box">
+        <figure class="select-grid-item-img">
+            <div class="select-grid-item-icon-box">
             <ion-icon name="eye-outline"></ion-icon>
             </div>
 
             <img src="{{ project-item.image }}" alt="{{ project-item.image_alt }}" loading="lazy">
         </figure>
 
-        <h3 class="project-title">{{ project-item.title }}</h3>
+        <h3 class="select-grid-item-title">{{ project-item.title }}</h3>
 
-        <p class="project-category">{{ project-item.date }}, {{ project-item.tag }}</p>
+        <p class="select-grid-item-description">{{ project-item.date }}, {{ project-item.tag }}</p>
 
         </a>
     </li>

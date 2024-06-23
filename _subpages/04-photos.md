@@ -49,23 +49,22 @@ permalink: /photos
 
     </div>
 
-    <ul class="project-list">
-
+    <ul class="select-grid-list photo-list">
     {% for photo-item in site.data.photos %}
-    <li class="project-item active" data-filter-item data-category="{{ photo-item.tag | downcase }}">
+    <li class="select-grid-item photo-item active" data-filter-item data-category="{{ photo-item.tag | downcase }}">
         <a href="{{ photo-item.link }}">
 
-        <figure class="project-img">
-            <div class="project-item-icon-box">
+        <figure class="select-grid-item-img">
+            <div class="select-grid-item-icon-box">
             <ion-icon name="eye-outline"></ion-icon>
             </div>
 
             <img src="/assets/photos/{{ photo-item.file }}" alt="{{ photo-item.alt }}" loading="lazy" data-photos-image>
         </figure>
 
-        <h3 class="project-title" data-photos-alt>{{ photo-item.alt }}</h3>
+        <h3 class="select-grid-item-title" data-photos-alt>{{ photo-item.alt }}</h3>
 
-        <p class="project-category" data-photos-tag>{{ photo-item.tag }}</p>
+        <p class="select-grid-item-description" data-photos-tag>{{ photo-item.tag }}</p>
 
         </a>
     </li>
@@ -114,3 +113,5 @@ permalink: /photos
     </section>
 
 </div>
+
+<script src="/assets/js/photos.js"></script>
