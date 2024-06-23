@@ -52,21 +52,23 @@ permalink: /photos
     <ul class="select-grid-list photo-list">
     {% for photo-item in site.data.photos %}
     <li class="select-grid-item photo-item active" data-filter-item data-category="{{ photo-item.tag | downcase }}">
-        <a href="{{ photo-item.link }}">
+        <!-- <a href="{{ photo-item.link }}"> -->
+        <div data-lightbox-item>
 
         <figure class="select-grid-item-img">
             <div class="select-grid-item-icon-box">
             <ion-icon name="eye-outline"></ion-icon>
             </div>
 
-            <img src="/assets/photos/{{ photo-item.file }}" alt="{{ photo-item.alt }}" loading="lazy" data-photos-image>
+            <img src="/assets/photos/{{ photo-item.file }}" alt="{{ photo-item.alt }}" loading="lazy" data-lightbox-image>
         </figure>
 
-        <h3 class="select-grid-item-title" data-photos-alt>{{ photo-item.alt }}</h3>
+        <h3 class="select-grid-item-title" data-lightbox-title>{{ photo-item.alt }}</h3>
 
-        <p class="select-grid-item-description" data-photos-tag>{{ photo-item.tag }}</p>
+        <p class="select-grid-item-description" data-lightbox-tag>{{ photo-item.tag }}</p>
 
-        </a>
+        </div>
+        <!-- </a> -->
     </li>
     {% endfor %}
 
@@ -78,25 +80,18 @@ permalink: /photos
 
     <div class="overlay" data-overlay></div>
 
-    <section class="photos-modal">
+    <section class="modal photos-modal">
 
     <button class="modal-close-btn" data-modal-close-btn>
         <ion-icon name="close-outline"></ion-icon>
     </button>
 
-    <div class="modal-img-wrapper">
-        <figure class="modal-avatar-box">
-        <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-        </figure>
-
-        <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    <div class="modal-img" data-modal-img>
     </div>
 
     <div class="modal-content">
 
         <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-        <time datetime="2021-06-14">14 June, 2021</time>
 
         <div data-modal-text>
         <p>

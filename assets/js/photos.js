@@ -23,7 +23,7 @@ function resizeMasonryItem(item){
    * Net height of the implicit row-track = T = G + R
    * S = H1 / T
    */
-  var rowSpan = Math.ceil((item.querySelector('a').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+  var rowSpan = Math.ceil((item.querySelector('div').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
 
   /* Set the spanning as calculated above (S) */
   item.style.gridRowEnd = 'span '+rowSpan;

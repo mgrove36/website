@@ -22,13 +22,17 @@ const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
+// lightbox variables
+const lightboxItem = document.querySelectorAll("[data-lightbox-item]");
+
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalText = document.querySelector("[data-modal-text]");
+const modalTag = document.querySelector("[data-modal-tag]");
 
 // modal toggle function
-const testimonialsModalFunc = function () {
+const modalFunc = function () {
   modalContainer.classList.toggle("active");
   overlay.classList.toggle("active");
 }
@@ -43,15 +47,31 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
 
-    testimonialsModalFunc();
+    modalFunc();
+
+  });
+
+}
+
+// add click event to all lightbox items
+for (let i = 0; i < lightboxItem.length; i++) {
+
+  lightboxItem[i].addEventListener("click", function () {
+    console.log("Clicked");
+
+    modalImg.style.backgroundImage = "url('" + this.querySelector("[data-lightbox-image]").src + "')";
+    modalTitle.innerHTML = this.querySelector("[data-lightbox-title]").innerHTML;
+    modalText.innerHTML = this.querySelector("[data-lightbox-tag]").innerHTML;
+
+    modalFunc();
 
   });
 
 }
 
 // add click event to modal close button
-if (modalCloseBtn) modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-if (overlay) overlay.addEventListener("click", testimonialsModalFunc);
+if (modalCloseBtn) modalCloseBtn.addEventListener("click", modalFunc);
+if (overlay) overlay.addEventListener("click", modalFunc);
 
 
 
@@ -109,6 +129,10 @@ for (let i = 0; i < filterBtn.length; i++) {
     this.classList.add("active");
     lastClickedBtn = this;
 
+    if (resizeAllMasonryItems) {
+      resizeAllMasonryItems();
+      setTimeout(resizeAllMasonryItems, 250);
+    }
   });
 
 }

@@ -82,7 +82,7 @@ permalink: /
 
     <div class="overlay" data-overlay></div>
 
-    <section class="testimonials-modal">
+    <section class="modal testimonials-modal">
 
     <button class="modal-close-btn" data-modal-close-btn>
         <ion-icon name="close-outline"></ion-icon>
