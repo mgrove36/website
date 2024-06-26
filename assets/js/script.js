@@ -117,6 +117,12 @@ const filterFunc = function (selectedValue) {
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
 
+// show correct filter depending on url
+let filterValue = "";
+if (filterBtn.length > 0 && location.hash.length > 1) {
+  filterValue = decodeURIComponent(location.hash.substring(1));
+}
+
 for (let i = 0; i < filterBtn.length; i++) {
 
   filterBtn[i].addEventListener("click", function () {
@@ -124,6 +130,9 @@ for (let i = 0; i < filterBtn.length; i++) {
     let selectedValue = this.innerText.toLowerCase();
     selectValue.innerText = this.innerText;
     filterFunc(selectedValue);
+
+    // set id in url
+    location.hash = encodeURIComponent(filterBtn[i].innerHTML);
 
     lastClickedBtn.classList.remove("active");
     this.classList.add("active");
@@ -138,6 +147,10 @@ for (let i = 0; i < filterBtn.length; i++) {
       setTimeout(resizeAllMasonryItems, 500);
     }
   });
+
+  if (filterValue === filterBtn[i].innerHTML) {
+    filterBtn[i].click();
+  }
 
 }
 
