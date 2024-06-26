@@ -78,7 +78,7 @@ if (overlay) overlay.addEventListener("click", modalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 if (select) select.addEventListener("click", function () { elementToggleFunc(this); });
