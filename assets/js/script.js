@@ -131,7 +131,11 @@ for (let i = 0; i < filterBtn.length; i++) {
 
     if (resizeAllMasonryItems) {
       resizeAllMasonryItems();
-      setTimeout(resizeAllMasonryItems, 250);
+      setTimeout(resizeAllMasonryItems, 100);
+      setTimeout(resizeAllMasonryItems, 200);
+      setTimeout(resizeAllMasonryItems, 300);
+      setTimeout(resizeAllMasonryItems, 400);
+      setTimeout(resizeAllMasonryItems, 500);
     }
   });
 
