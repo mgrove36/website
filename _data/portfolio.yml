@@ -1,3 +1,9 @@
+- title: encap-attack: k8s network security testing tool
+  date: 2024
+  link: https://github.com/WithSecureLabs/encap-attack/
+  tag: Cyber Security
+  image: /assets/images/encap-attack-banner.jpg
+  image_alt: Network security testing
 - title: Home Assistant Pi Pico W Dashboard
   date: 2024
   link: https://github.com/mgrove36/home-assistant-pi-pico-w-dashboard
