@@ -1,38 +1,39 @@
-- job_title: Cyber Security Intern
+- job_title: Cyber Security Consulting Intern
   company: WithSecure
   start_year: 2024
-  end_year: Present
+  end_year: 2024
   description: |
-    Rehired for another internship after a successful performance in 2023, I aim to enhance company resources relating to Kubernetes and other areas of security.
+    Rehired after a successful performance in 2023, I produced strong research output including an open-source Kubernetes network security testing tool, [encap-attack](https://github.com/WithSecureLabs/encap-attack/), and other internal resources. I also published a blog post about encap-attack [on the WithSecure Labs website](https://labs.withsecure.com/tools/encap-attack).
 - job_title: Software Engineer
   company: Freelance
   start_year: 2021
   end_year: Present
   description: |
-    Recent projects have included [Parandum](https://parandum.mgrove.uk) (a vocabulary learning platform), the [Reading School Alumni Society website](https://alumni.reading-school.co.uk) (with a brief to make the most of the limited features available), and a website for Reading School's students [to publish news articles on](https://youngreporter.mgrove.uk), as part of the BBC Young Reporter programme -- as well as numerous internal systems for other organisations. I also develop websites for a marketing company.
-- job_title: Cyber Security Intern
-  company: WithSecure
+    I provide ongoing software engineering, web development, and cyber security services to clients nationwide. These services cater to a variety of industry partners' needs -- ranging from marketing to education.
+- job_title: Section Officer
+  company: Combined Cadet Force
   start_year: 2023
-  end_year: 2023
+  end_year: Present
   description: |
-    First undertaking class-leading training in various aspects of cyber security - from web applications to networks - I completed a research project focusing on automating the identification of attack paths and potential privilege escalation in IBM's mainframe operating system, z/OS. This culminated in presenting my findings (and the tool I had developed) to the company's global consulting team, building on the knowledge I gained from consulting workshops I also attended.
+    Providing high-level oversight to the operation of the RAF section within the unit, my role includes the development of leadership and subject-specialist capabilities within the cadet context.
 - job_title: Student Ambassador / Lead Student Ambassador
   company: University of Southampton
   start_year: 2022
   end_year: Present
   description: |
-    Supporting the university's Widening Participation and Social Mobility, and outreach teams with local initiatives with nearby primary and secondary schools, engaging students and supporting their academic and social development - and promoting the university on the wider national stage.
+    Supporting the university's outreach and Widening Participation and Social Mobility teams with local initiatives with nearby primary and secondary schools, engaging students and supporting their academic and social development - whilst also promoting the university on the wider national stage. This also includes managerial roles at university events, including Science and Engineering Day, attended by over 5,000 visitors.
+- job_title: Cyber Security Consulting Intern
+  company: WithSecure
+  start_year: 2023
+  end_year: 2023
+  description: |
+    First undertaking class-leading training in various aspects of cyber security - from web applications to networks - I completed a research project focusing on automating the identification of attack paths and potential privilege escalation in IBM's mainframe operating system, z/OS. This culminated in presenting my findings (and the tool I had developed) to the company's global consulting team, building on the knowledge I gained from consulting workshops I also attended.
 - job_title: Digital Impact Officer
   company: BRECcIA Research Project, University of Southampton
   start_year: 2022
   end_year: 2023
   description: |
     Software development focusing on the completion of relationship mapping software for use in both research and corporate environments. This is open-source software deployed through Docker and built with Django, principally aiming to increase the efficacy of collaborations across departments and organisations. This web app and its documentation are available [on GitHub](https://github.com/Southampton-RSG/breccia-mapper).
-- job_title: Section Officer
-  company: Combined Cadet Force
-  start_year: 2023
-  end_year: Present
-  description: 
 - job_title: Technical Lead
   company: Swifts Junior Badminton Club
   start_year: 2022
@@ -43,7 +44,8 @@
   company: Southampton University Air Squadron
   start_year: 2022
   end_year: 2024
-  description: 
+  description: |
+    In my time at SUAS, I undertook strong leadership development training - and used these skills for the planning and execution of several activities nationwide. This sits in the context of continuing developmental training in areas such as first aid.
 - job_title: Hospitality
   company: CH&CO
   start_year: 2022
