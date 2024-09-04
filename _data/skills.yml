@@ -1,10 +1,10 @@
 - name: Leadership
   value: 85
-- name: Cyber Security (esp. web and network)
-  value: 80
+- name: Cyber Security (esp. network and applied)
+  value: 88
 - name: Software Engineering
   value: 82
 - name: Web Development and Online Marketing
   value: 75
 - name: Digital Forensics
-  value: 30
+  value: 40
