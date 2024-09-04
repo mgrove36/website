@@ -76,7 +76,7 @@ permalink: /resume
 
         <div class="title-wrapper">
         <h5 class="h5">{{ skill.name }}</h5>
-        <data value="{{ skill.value }}">{{ skill.value }}%</data>
+        <data value="{{ skill.value }}"></data>
         </div>
 
         <div class="skill-progress-bg">
